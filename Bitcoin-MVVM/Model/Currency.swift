@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Currency: Codable {
+    let currency: String
+    let price: String
+}
+ 
